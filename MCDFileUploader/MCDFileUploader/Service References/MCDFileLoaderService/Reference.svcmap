@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6b6bc038-7e60-4bfd-ba74-f3c4a79383e3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://services.mycustomerdata.com/MCDFileUploader/FileLoader.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FileLoader.xsd" MetadataType="Schema" ID="f77dc2b9-33fa-41b7-91c0-d840d99dbc02" SourceId="1" SourceUrl="http://services.mycustomerdata.com/MCDFileUploader/FileLoader.svc?xsd=xsd0" />
+    <MetadataFile FileName="FileLoader.wsdl" MetadataType="Wsdl" ID="ce58bfc1-03cd-40f1-b299-a98986f0d78e" SourceId="1" SourceUrl="http://services.mycustomerdata.com/MCDFileUploader/FileLoader.svc?wsdl" />
+    <MetadataFile FileName="FileLoader.disco" MetadataType="Disco" ID="2fe38ca1-1617-48cf-81d3-16d54ed8b1cc" SourceId="1" SourceUrl="http://services.mycustomerdata.com/MCDFileUploader/FileLoader.svc?disco" />
+    <MetadataFile FileName="FileLoader1.xsd" MetadataType="Schema" ID="251ce212-ff5c-4297-9e12-f535c84dca20" SourceId="1" SourceUrl="http://services.mycustomerdata.com/MCDFileUploader/FileLoader.svc?xsd=xsd1" />
+    <MetadataFile FileName="FileLoader2.xsd" MetadataType="Schema" ID="cbe5e8b7-1267-4a86-8bcc-d486eacc8604" SourceId="1" SourceUrl="http://services.mycustomerdata.com/MCDFileUploader/FileLoader.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
